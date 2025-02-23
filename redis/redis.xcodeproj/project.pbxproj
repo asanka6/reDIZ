@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C72840B92D6B6B520082D8E9 /* redis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = redis.xcodeproj; sourceTree = "<group>"; };
 		EE71410F2D1CC3BD0097F5DE /* redis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -30,13 +29,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C72840C02D6B6B520082D8E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		EE7141062D1CC3BD0097F5DE = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +97,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EE7141102D1CC3BD0097F5DE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C72840C02D6B6B520082D8E9 /* Products */;
-					ProjectRef = C72840B92D6B6B520082D8E9 /* redis.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				EE71410E2D1CC3BD0097F5DE /* redis */,
